@@ -1,4 +1,4 @@
-package com.example.timemanager
+package com.hkaiSolveAcademy.vibeCoding.wing
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -30,15 +30,15 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.example.timemanager.ui.screens.DashboardScreen
-import com.example.timemanager.ui.screens.ModeGalleryScreen
-import com.example.timemanager.ui.screens.PreferenceSetupScreen
-import com.example.timemanager.ui.screens.StatsScreen
-import com.example.timemanager.ui.screens.TasksScreen
-import com.example.timemanager.ui.screens.TimerScreen
-import com.example.timemanager.ui.theme.TimeManagerTheme
-import com.example.timemanager.ui.viewmodel.MainViewModel
-import com.example.timemanager.ui.viewmodel.ViewModelFactory
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.screens.DashboardScreen
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.screens.ModeGalleryScreen
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.screens.PreferenceSetupScreen
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.screens.StatsScreen
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.screens.TasksScreen
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.screens.TimerScreen
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.theme.TimeManagerTheme
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.viewmodel.MainViewModel
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.viewmodel.ViewModelFactory
 
 sealed class Screen(val route: String, val label: String, val icon: ImageVector) {
     object Dashboard : Screen("dashboard", "概覽", Icons.Default.Dashboard)

@@ -1,4 +1,4 @@
-package com.example.timemanager.ui.components
+package com.hkaiSolveAcademy.vibeCoding.wing.ui.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -29,9 +29,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import com.example.timemanager.data.database.Category
-import com.example.timemanager.data.database.Task
-import com.example.timemanager.ui.theme.Slate400
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.Category
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.Task
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.theme.Slate400
 
 @Composable
 fun TaskItem(

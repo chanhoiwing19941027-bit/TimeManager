@@ -1,4 +1,4 @@
-package com.example.timemanager.ui.components
+package com.hkaiSolveAcademy.vibeCoding.wing.ui.components
 
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.Canvas
@@ -19,8 +19,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.timemanager.ui.theme.Indigo500
-import com.example.timemanager.ui.theme.Slate800
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.theme.Indigo500
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.theme.Slate800
 
 @Composable
 fun CircularTimer(

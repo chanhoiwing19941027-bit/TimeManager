@@ -1,8 +1,8 @@
-package com.example.timemanager
+package com.hkaiSolveAcademy.vibeCoding.wing
 
 import android.app.Application
-import com.example.timemanager.data.database.AppDatabase
-import com.example.timemanager.data.repository.TimeRepository
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.AppDatabase
+import com.hkaiSolveAcademy.vibeCoding.wing.data.repository.TimeRepository
 
 class TimeManagerApplication : Application() {
     val database by lazy { AppDatabase.getDatabase(this) }

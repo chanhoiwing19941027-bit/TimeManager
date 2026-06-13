@@ -1,4 +1,4 @@
-package com.example.timemanager.data.database
+package com.hkaiSolveAcademy.vibeCoding.wing.data.database
 
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Bolt

@@ -1,4 +1,4 @@
-package com.example.timemanager.ui.screens
+package com.hkaiSolveAcademy.vibeCoding.wing.ui.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -23,10 +23,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
-import com.example.timemanager.data.database.Category
-import com.example.timemanager.data.database.Routine
-import com.example.timemanager.ui.components.GlassCard
-import com.example.timemanager.ui.viewmodel.MainViewModel
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.Category
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.Routine
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.components.GlassCard
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.viewmodel.MainViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -163,7 +163,7 @@ fun RoutineItem(routine: Routine, onDelete: () -> Unit) {
 }
 
 @Composable
-fun RecurringActivityItem(activity: com.example.timemanager.data.database.RecurringActivity, onDelete: () -> Unit) {
+fun RecurringActivityItem(activity: com.hkaiSolveAcademy.vibeCoding.wing.data.database.RecurringActivity, onDelete: () -> Unit) {
     val days = listOf("日", "一", "二", "三", "四", "五", "六")
     GlassCard(modifier = Modifier.fillMaxWidth()) {
         Row(

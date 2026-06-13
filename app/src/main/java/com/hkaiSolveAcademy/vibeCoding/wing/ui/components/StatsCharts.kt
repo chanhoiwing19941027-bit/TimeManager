@@ -1,4 +1,4 @@
-package com.example.timemanager.ui.components
+package com.hkaiSolveAcademy.vibeCoding.wing.ui.components
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.layout.Box
@@ -14,10 +14,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.nativeCanvas
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import com.example.timemanager.data.database.Category
-import com.example.timemanager.ui.theme.Indigo500
-import com.example.timemanager.ui.theme.Slate700
-import com.example.timemanager.ui.theme.Slate800
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.Category
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.theme.Indigo500
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.theme.Slate700
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.theme.Slate800
 
 data class ChartSegment(
     val category: Category,

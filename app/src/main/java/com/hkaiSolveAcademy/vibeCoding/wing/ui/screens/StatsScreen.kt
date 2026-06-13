@@ -1,4 +1,4 @@
-package com.example.timemanager.ui.screens
+package com.hkaiSolveAcademy.vibeCoding.wing.ui.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -40,12 +40,12 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.text.style.TextAlign
-import com.example.timemanager.data.database.Category
-import com.example.timemanager.data.database.TimeLog
-import com.example.timemanager.ui.components.BarChart
-import com.example.timemanager.ui.components.DonutChart
-import com.example.timemanager.ui.components.GlassCard
-import com.example.timemanager.ui.viewmodel.MainViewModel
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.Category
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.TimeLog
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.components.BarChart
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.components.DonutChart
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.components.GlassCard
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.viewmodel.MainViewModel
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale

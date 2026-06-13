@@ -1,4 +1,4 @@
-package com.example.timemanager.ui.screens
+package com.hkaiSolveAcademy.vibeCoding.wing.ui.screens
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -43,10 +43,10 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
-import com.example.timemanager.data.database.Category
-import com.example.timemanager.data.database.Task
-import com.example.timemanager.ui.components.TaskItem
-import com.example.timemanager.ui.viewmodel.MainViewModel
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.Category
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.Task
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.components.TaskItem
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.viewmodel.MainViewModel
 
 @Composable
 fun TasksScreen(

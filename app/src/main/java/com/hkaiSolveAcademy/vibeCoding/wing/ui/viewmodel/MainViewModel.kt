@@ -1,16 +1,16 @@
-package com.example.timemanager.ui.viewmodel
+package com.hkaiSolveAcademy.vibeCoding.wing.ui.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.example.timemanager.data.database.Category
-import com.example.timemanager.data.database.RecurringActivity
-import com.example.timemanager.data.database.Routine
-import com.example.timemanager.data.database.Task
-import com.example.timemanager.data.database.TemplateRegistry
-import com.example.timemanager.data.database.TimeLog
-import com.example.timemanager.data.repository.TimeRepository
-import com.example.timemanager.ui.components.ChartSegment
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.Category
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.RecurringActivity
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.Routine
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.Task
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.TemplateRegistry
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.TimeLog
+import com.hkaiSolveAcademy.vibeCoding.wing.data.repository.TimeRepository
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.components.ChartSegment
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.MutableStateFlow

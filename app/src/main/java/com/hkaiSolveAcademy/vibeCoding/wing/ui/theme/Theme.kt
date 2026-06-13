@@ -1,4 +1,4 @@
-package com.example.timemanager.ui.theme
+package com.hkaiSolveAcademy.vibeCoding.wing.ui.theme
 
 import android.app.Activity
 import androidx.compose.foundation.isSystemInDarkTheme

@@ -1,4 +1,4 @@
-package com.example.timemanager.data.database
+package com.hkaiSolveAcademy.vibeCoding.wing.data.database
 
 import android.content.Context
 import androidx.room.Database

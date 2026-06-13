@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.timemanager"
+    namespace = "com.hkaiSolveAcademy.vibeCoding.wing"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.timemanager"
+        applicationId = "com.hkaiSolveAcademy.vibeCoding.wing"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

@@ -1,4 +1,4 @@
-package com.example.timemanager.ui.screens
+package com.hkaiSolveAcademy.vibeCoding.wing.ui.screens
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.background
@@ -54,10 +54,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.Dialog
-import com.example.timemanager.data.database.TemplateRegistry
-import com.example.timemanager.data.database.TimetableTemplate
-import com.example.timemanager.ui.components.GlassCard
-import com.example.timemanager.ui.viewmodel.MainViewModel
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.TemplateRegistry
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.TimetableTemplate
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.components.GlassCard
+import com.hkaiSolveAcademy.vibeCoding.wing.ui.viewmodel.MainViewModel
 
 @OptIn(androidx.compose.material3.ExperimentalMaterial3Api::class)
 @Composable

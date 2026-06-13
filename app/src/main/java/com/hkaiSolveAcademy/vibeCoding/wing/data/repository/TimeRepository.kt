@@ -1,13 +1,13 @@
-package com.example.timemanager.data.repository
+package com.hkaiSolveAcademy.vibeCoding.wing.data.repository
 
-import com.example.timemanager.data.database.RecurringActivity
-import com.example.timemanager.data.database.RecurringActivityDao
-import com.example.timemanager.data.database.Routine
-import com.example.timemanager.data.database.RoutineDao
-import com.example.timemanager.data.database.Task
-import com.example.timemanager.data.database.TaskDao
-import com.example.timemanager.data.database.TimeLog
-import com.example.timemanager.data.database.TimeLogDao
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.RecurringActivity
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.RecurringActivityDao
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.Routine
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.RoutineDao
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.Task
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.TaskDao
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.TimeLog
+import com.hkaiSolveAcademy.vibeCoding.wing.data.database.TimeLogDao
 import kotlinx.coroutines.flow.Flow
 
 class TimeRepository(

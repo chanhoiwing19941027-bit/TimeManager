@@ -1,4 +1,4 @@
-package com.example.timemanager.ui.theme
+package com.hkaiSolveAcademy.vibeCoding.wing.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
